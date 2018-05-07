@@ -19,7 +19,7 @@ function submitForm(e) {
     //get values
     var email = getInputVal('email_input');
     var email1 = getInputVal('email_input');
-    var data_structure = [email, email1, email]
+    var data_structure = [email, email1, email, email]
     //save messages
     saveMessage(data_structure);
     // show alert error
@@ -40,6 +40,7 @@ function saveMessage(data_structure) {
     newMessageRef.set({
         first_name: data_structure[0],
         last_name: data_structure[1],
-        email: data_structure[2]
+        email: data_structure[2],
+        gender: data_structure[3]
     });
 }
