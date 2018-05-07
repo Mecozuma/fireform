@@ -1,12 +1,12 @@
 // Initialize Firebase
 var config = {
-    apiKey: "AIzaSyCW3203diXqggsrCu_9vSob95FhXT3spDk",
-    authDomain: "fireformdata.firebaseapp.com",
-    databaseURL: "https://fireformdata.firebaseio.com",
-    projectId: "fireformdata",
-    storageBucket: "fireformdata.appspot.com",
-    messagingSenderId: "621912673160"
-};
+    apiKey: "AIzaSyCtBPR7BDFclI-fNS7D2d8HW4YLnPcwWq8",
+    authDomain: "fireformdata-ff691.firebaseapp.com",
+    databaseURL: "https://fireformdata-ff691.firebaseio.com",
+    projectId: "fireformdata-ff691",
+    storageBucket: "fireformdata-ff691.appspot.com",
+    messagingSenderId: "155146186514"
+  };
 firebase.initializeApp(config);
 var messagesRef = firebase.database().ref('fireformdata');
 
